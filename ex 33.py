@@ -26,7 +26,7 @@ else:
 
 # verifica se todos são iguais, se não damos inicio a verificação do menor
 if primeiro==segundo and primeiro == terceiro:
-    igual == 'igual'
+    print ('')
 else:
     if primeiro < segundo and primeiro < terceiro:
         print(f'O numero {primeiro} é o menor')
